@@ -13,5 +13,5 @@ while True:
 		input('Agora, digite o mês do seu nascimento (exemplo: "01"):\n'),
 		input('E, por fim, digite o ano em que você nasceu (exemplo: "2000"):\n')
 	]
-	aux = bool(int(datas.pop()))
-	print('\nCliente:', name, '\nMora em:', city, '\nData de nascimento:', '/'.join(datas), '\nMaior de idade:', aux)
+	print('\nCliente:', name, '\nMora em:', city, '\nData de nascimento:', '/'.join(datas))
+	print( 'Maior de idade:', bool(int(datas.pop())))
